@@ -1,0 +1,701 @@
+{
+    "metadata": "{\"image\":\"nagata.pgm\",\"resolution\":0.05,\"origin\":[-26.117105,-35.734393,0.000000],\"negate\":0,\"occupied_thresh\":0.65,\"free_thresh\":0.196}",
+    "noGoZones": [],
+    "locationTags": [
+      {
+        "x": -1.8333532342039405,
+        "y": -0.4050018074915158,
+        "fill": "orange",
+        "uuid": "locationTag-03e4b59a-cbd7-4a2e-b09e-aa9cf84d8c54",
+        "theta": 90,
+        "title": "home 2",
+        "UnDock": {
+          "type": "undock",
+          "direction": "reverse",
+          "two_phase": false,
+          "goal_distance": 0.8,
+          "trolley_depth": 0,
+          "trolley_width": 0,
+          "vmarker_angle": 0,
+          "goal_orientation": false
+        },
+        "Waypoint": {
+          "x": -1.8333532342039405,
+          "y": -0.4050018074915158,
+          "theta": 90
+        },
+        "TdmDocking": {
+          "type": "TDM",
+          "direction": "front",
+          "two_phase": true,
+          "goal_distance": 0,
+          "trolley_depth": 0.43,
+          "trolley_width": 0.77,
+          "vmarker_angle": 0,
+          "goal_orientation": true
+        },
+        "TdmExtract": {
+          "back_lidar": {
+            "max": 0.785398,
+            "min": -2.356194
+          },
+          "front_lidar": {
+            "max": 0.785398,
+            "min": -2.356194
+          },
+          "tdm_operation": "extract",
+          "robot_footprint": "[[-0.6331,-0.479], [0.6331,-0.479], [0.6331,0.479], [-0.6331,0.479]]"
+        },
+        "TdmRetract": {
+          "back_lidar": {
+            "max": 2.356194,
+            "min": -2.356194
+          },
+          "front_lidar": {
+            "max": 2.356194,
+            "min": -2.356194
+          },
+          "tdm_operation": "retract",
+          "robot_footprint": "[[-0.427,-0.3], [0.427,-0.3], [0.427,0.3], [-0.427,0.3]]"
+        },
+        "ChargeEnable": {
+          "charging": true
+        },
+        "TrollyUnDock": {
+          "type": "undock",
+          "direction": "reverse",
+          "two_phase": false,
+          "goal_distance": 1.5,
+          "trolley_depth": 0,
+          "trolley_width": 0,
+          "vmarker_angle": 0,
+          "goal_orientation": false
+        },
+        "ChargeDisable": {
+          "charging": false
+        },
+        "VmarkerDocking": {
+          "type": "vmarker",
+          "direction": "front",
+          "two_phase": false,
+          "goal_distance": 0.415,
+          "trolley_depth": 0,
+          "trolley_width": 0,
+          "vmarker_angle": 68,
+          "goal_orientation": false
+        },
+        "vmarker_distance": null
+      },
+      {
+        "x": -2.966100918646127,
+        "y": -0.27501436829323467,
+        "fill": "orange",
+        "uuid": "locationTag-ab882168-0eaa-448a-a7ae-da2b43afee25",
+        "theta": 90,
+        "title": "home 1",
+        "UnDock": {
+          "type": "undock",
+          "direction": "reverse",
+          "two_phase": false,
+          "goal_distance": 0.8,
+          "trolley_depth": 0,
+          "trolley_width": 0,
+          "vmarker_angle": 0,
+          "goal_orientation": false
+        },
+        "Waypoint": {
+          "x": -2.966100918646127,
+          "y": -0.27501436829323467,
+          "theta": 90
+        },
+        "TdmDocking": {
+          "type": "TDM",
+          "direction": "front",
+          "two_phase": true,
+          "goal_distance": 0,
+          "trolley_depth": 0.43,
+          "trolley_width": 0.77,
+          "vmarker_angle": 0,
+          "goal_orientation": true
+        },
+        "TdmExtract": {
+          "back_lidar": {
+            "max": 0.785398,
+            "min": -2.356194
+          },
+          "front_lidar": {
+            "max": 0.785398,
+            "min": -2.356194
+          },
+          "tdm_operation": "extract",
+          "robot_footprint": "[[-0.6331,-0.479], [0.6331,-0.479], [0.6331,0.479], [-0.6331,0.479]]"
+        },
+        "TdmRetract": {
+          "back_lidar": {
+            "max": 2.356194,
+            "min": -2.356194
+          },
+          "front_lidar": {
+            "max": 2.356194,
+            "min": -2.356194
+          },
+          "tdm_operation": "retract",
+          "robot_footprint": "[[-0.427,-0.3], [0.427,-0.3], [0.427,0.3], [-0.427,0.3]]"
+        },
+        "ChargeEnable": {
+          "charging": true
+        },
+        "TrollyUnDock": {
+          "type": "undock",
+          "direction": "reverse",
+          "two_phase": false,
+          "goal_distance": 1.5,
+          "trolley_depth": 0,
+          "trolley_width": 0,
+          "vmarker_angle": 0,
+          "goal_orientation": false
+        },
+        "ChargeDisable": {
+          "charging": false
+        },
+        "VmarkerDocking": {
+          "type": "vmarker",
+          "direction": "front",
+          "two_phase": false,
+          "goal_distance": 0.415,
+          "trolley_depth": 0,
+          "trolley_width": 0,
+          "vmarker_angle": 68,
+          "goal_orientation": false
+        },
+        "vmarker_distance": null
+      },
+      {
+        "x": 0.2617077333621687,
+        "y": -0.09222657184201921,
+        "fill": "orange",
+        "uuid": "locationTag-fc38a580-4677-471c-829c-8b5cb3cab7b7",
+        "theta": 357.1170365474605,
+        "title": "fast wp 1",
+        "UnDock": {
+          "type": "undock",
+          "direction": "reverse",
+          "two_phase": false,
+          "goal_distance": 0.8,
+          "trolley_depth": 0,
+          "trolley_width": 0,
+          "vmarker_angle": 0,
+          "goal_orientation": false
+        },
+        "Waypoint": {
+          "x": 0.2617077333621687,
+          "y": -0.09222657184201921,
+          "theta": 357.1170365474605
+        },
+        "TdmDocking": {
+          "type": "TDM",
+          "direction": "front",
+          "two_phase": true,
+          "goal_distance": 0,
+          "trolley_depth": 0.43,
+          "trolley_width": 0.77,
+          "vmarker_angle": 0,
+          "goal_orientation": true
+        },
+        "TdmExtract": {
+          "back_lidar": {
+            "max": 0.785398,
+            "min": -2.356194
+          },
+          "front_lidar": {
+            "max": 0.785398,
+            "min": -2.356194
+          },
+          "tdm_operation": "extract",
+          "robot_footprint": "[[-0.6331,-0.479], [0.6331,-0.479], [0.6331,0.479], [-0.6331,0.479]]"
+        },
+        "TdmRetract": {
+          "back_lidar": {
+            "max": 2.356194,
+            "min": -2.356194
+          },
+          "front_lidar": {
+            "max": 2.356194,
+            "min": -2.356194
+          },
+          "tdm_operation": "retract",
+          "robot_footprint": "[[-0.427,-0.3], [0.427,-0.3], [0.427,0.3], [-0.427,0.3]]"
+        },
+        "ChargeEnable": {
+          "charging": true
+        },
+        "TrollyUnDock": {
+          "type": "undock",
+          "direction": "reverse",
+          "two_phase": false,
+          "goal_distance": 1.5,
+          "trolley_depth": 0,
+          "trolley_width": 0,
+          "vmarker_angle": 0,
+          "goal_orientation": false
+        },
+        "ChargeDisable": {
+          "charging": false
+        },
+        "VmarkerDocking": {
+          "type": "vmarker",
+          "direction": "front",
+          "two_phase": false,
+          "goal_distance": 0.415,
+          "trolley_depth": 0,
+          "trolley_width": 0,
+          "vmarker_angle": 68,
+          "goal_orientation": false
+        },
+        "vmarker_distance": null
+      },
+      {
+        "x": 31.55990508794464,
+        "y": -2.4931049271380914,
+        "fill": "orange",
+        "uuid": "locationTag-a07d0a3d-a102-4028-9933-6160c5e08f34",
+        "theta": 177.61405596961117,
+        "title": "fast wp 2",
+        "UnDock": {
+          "type": "undock",
+          "direction": "reverse",
+          "two_phase": false,
+          "goal_distance": 0.8,
+          "trolley_depth": 0,
+          "trolley_width": 0,
+          "vmarker_angle": 0,
+          "goal_orientation": false
+        },
+        "Waypoint": {
+          "x": 31.55990508794464,
+          "y": -2.4931049271380914,
+          "theta": 177.61405596961117
+        },
+        "TdmDocking": {
+          "type": "TDM",
+          "direction": "front",
+          "two_phase": true,
+          "goal_distance": 0,
+          "trolley_depth": 0.43,
+          "trolley_width": 0.77,
+          "vmarker_angle": 0,
+          "goal_orientation": true
+        },
+        "TdmExtract": {
+          "back_lidar": {
+            "max": 0.785398,
+            "min": -2.356194
+          },
+          "front_lidar": {
+            "max": 0.785398,
+            "min": -2.356194
+          },
+          "tdm_operation": "extract",
+          "robot_footprint": "[[-0.6331,-0.479], [0.6331,-0.479], [0.6331,0.479], [-0.6331,0.479]]"
+        },
+        "TdmRetract": {
+          "back_lidar": {
+            "max": 2.356194,
+            "min": -2.356194
+          },
+          "front_lidar": {
+            "max": 2.356194,
+            "min": -2.356194
+          },
+          "tdm_operation": "retract",
+          "robot_footprint": "[[-0.427,-0.3], [0.427,-0.3], [0.427,0.3], [-0.427,0.3]]"
+        },
+        "ChargeEnable": {
+          "charging": true
+        },
+        "TrollyUnDock": {
+          "type": "undock",
+          "direction": "reverse",
+          "two_phase": false,
+          "goal_distance": 1.5,
+          "trolley_depth": 0,
+          "trolley_width": 0,
+          "vmarker_angle": 0,
+          "goal_orientation": false
+        },
+        "ChargeDisable": {
+          "charging": false
+        },
+        "VmarkerDocking": {
+          "type": "vmarker",
+          "direction": "front",
+          "two_phase": false,
+          "goal_distance": 0.415,
+          "trolley_depth": 0,
+          "trolley_width": 0,
+          "vmarker_angle": 68,
+          "goal_orientation": false
+        },
+        "vmarker_distance": null
+      },
+      {
+        "x": 6.293019029207873,
+        "y": 3.5003866725595856,
+        "fill": "orange",
+        "uuid": "locationTag-1b361012-e6f6-4240-a137-a531b3b50a33",
+        "theta": 356.55261314813487,
+        "title": "wp1",
+        "UnDock": {
+          "type": "undock",
+          "direction": "reverse",
+          "two_phase": false,
+          "goal_distance": 0.8,
+          "trolley_depth": 0,
+          "trolley_width": 0,
+          "vmarker_angle": 0,
+          "goal_orientation": false
+        },
+        "Waypoint": {
+          "x": 6.293019029207873,
+          "y": 3.5003866725595856,
+          "theta": 356.55261314813487
+        },
+        "TdmDocking": {
+          "type": "TDM",
+          "direction": "front",
+          "two_phase": true,
+          "goal_distance": 0,
+          "trolley_depth": 0.43,
+          "trolley_width": 0.77,
+          "vmarker_angle": 0,
+          "goal_orientation": true
+        },
+        "TdmExtract": {
+          "back_lidar": {
+            "max": 0.785398,
+            "min": -2.356194
+          },
+          "front_lidar": {
+            "max": 0.785398,
+            "min": -2.356194
+          },
+          "tdm_operation": "extract",
+          "robot_footprint": "[[-0.6331,-0.479], [0.6331,-0.479], [0.6331,0.479], [-0.6331,0.479]]"
+        },
+        "TdmRetract": {
+          "back_lidar": {
+            "max": 2.356194,
+            "min": -2.356194
+          },
+          "front_lidar": {
+            "max": 2.356194,
+            "min": -2.356194
+          },
+          "tdm_operation": "retract",
+          "robot_footprint": "[[-0.427,-0.3], [0.427,-0.3], [0.427,0.3], [-0.427,0.3]]"
+        },
+        "ChargeEnable": {
+          "charging": true
+        },
+        "TrollyUnDock": {
+          "type": "undock",
+          "direction": "reverse",
+          "two_phase": false,
+          "goal_distance": 1.5,
+          "trolley_depth": 0,
+          "trolley_width": 0,
+          "vmarker_angle": 0,
+          "goal_orientation": false
+        },
+        "ChargeDisable": {
+          "charging": false
+        },
+        "VmarkerDocking": {
+          "type": "vmarker",
+          "direction": "front",
+          "two_phase": false,
+          "goal_distance": 0.415,
+          "trolley_depth": 0,
+          "trolley_width": 0,
+          "vmarker_angle": 68,
+          "goal_orientation": false
+        },
+        "vmarker_distance": null
+      },
+      {
+        "x": 6.112277628870711,
+        "y": -0.7675380464453596,
+        "fill": "orange",
+        "uuid": "locationTag-197296aa-d245-4faa-8936-8346d9ab0143",
+        "theta": 0.3045643503487554,
+        "title": "wp2",
+        "UnDock": {
+          "type": "undock",
+          "direction": "reverse",
+          "two_phase": false,
+          "goal_distance": 0.8,
+          "trolley_depth": 0,
+          "trolley_width": 0,
+          "vmarker_angle": 0,
+          "goal_orientation": false
+        },
+        "Waypoint": {
+          "x": 6.112277628870711,
+          "y": -0.7675380464453596,
+          "theta": 0.3045643503487554
+        },
+        "TdmDocking": {
+          "type": "TDM",
+          "direction": "front",
+          "two_phase": true,
+          "goal_distance": 0,
+          "trolley_depth": 0.43,
+          "trolley_width": 0.77,
+          "vmarker_angle": 0,
+          "goal_orientation": true
+        },
+        "TdmExtract": {
+          "back_lidar": {
+            "max": 0.785398,
+            "min": -2.356194
+          },
+          "front_lidar": {
+            "max": 0.785398,
+            "min": -2.356194
+          },
+          "tdm_operation": "extract",
+          "robot_footprint": "[[-0.6331,-0.479], [0.6331,-0.479], [0.6331,0.479], [-0.6331,0.479]]"
+        },
+        "TdmRetract": {
+          "back_lidar": {
+            "max": 2.356194,
+            "min": -2.356194
+          },
+          "front_lidar": {
+            "max": 2.356194,
+            "min": -2.356194
+          },
+          "tdm_operation": "retract",
+          "robot_footprint": "[[-0.427,-0.3], [0.427,-0.3], [0.427,0.3], [-0.427,0.3]]"
+        },
+        "ChargeEnable": {
+          "charging": true
+        },
+        "TrollyUnDock": {
+          "type": "undock",
+          "direction": "reverse",
+          "two_phase": false,
+          "goal_distance": 1.5,
+          "trolley_depth": 0,
+          "trolley_width": 0,
+          "vmarker_angle": 0,
+          "goal_orientation": false
+        },
+        "ChargeDisable": {
+          "charging": false
+        },
+        "VmarkerDocking": {
+          "type": "vmarker",
+          "direction": "front",
+          "two_phase": false,
+          "goal_distance": 0.415,
+          "trolley_depth": 0,
+          "trolley_width": 0,
+          "vmarker_angle": 68,
+          "goal_orientation": false
+        },
+        "vmarker_distance": null
+      },
+      {
+        "x": 17.32100656095874,
+        "y": -1.0528387142350724,
+        "fill": "orange",
+        "uuid": "locationTag-3324bf79-29d0-4695-b615-612343b5ff69",
+        "theta": 357.1447769067341,
+        "title": "wp3",
+        "UnDock": {
+          "type": "undock",
+          "direction": "reverse",
+          "two_phase": false,
+          "goal_distance": 0.8,
+          "trolley_depth": 0,
+          "trolley_width": 0,
+          "vmarker_angle": 0,
+          "goal_orientation": false
+        },
+        "Waypoint": {
+          "x": 17.32100656095874,
+          "y": -1.0528387142350724,
+          "theta": 357.1447769067341
+        },
+        "TdmDocking": {
+          "type": "TDM",
+          "direction": "front",
+          "two_phase": true,
+          "goal_distance": 0,
+          "trolley_depth": 0.43,
+          "trolley_width": 0.77,
+          "vmarker_angle": 0,
+          "goal_orientation": true
+        },
+        "TdmExtract": {
+          "back_lidar": {
+            "max": 0.785398,
+            "min": -2.356194
+          },
+          "front_lidar": {
+            "max": 0.785398,
+            "min": -2.356194
+          },
+          "tdm_operation": "extract",
+          "robot_footprint": "[[-0.6331,-0.479], [0.6331,-0.479], [0.6331,0.479], [-0.6331,0.479]]"
+        },
+        "TdmRetract": {
+          "back_lidar": {
+            "max": 2.356194,
+            "min": -2.356194
+          },
+          "front_lidar": {
+            "max": 2.356194,
+            "min": -2.356194
+          },
+          "tdm_operation": "retract",
+          "robot_footprint": "[[-0.427,-0.3], [0.427,-0.3], [0.427,0.3], [-0.427,0.3]]"
+        },
+        "ChargeEnable": {
+          "charging": true
+        },
+        "TrollyUnDock": {
+          "type": "undock",
+          "direction": "reverse",
+          "two_phase": false,
+          "goal_distance": 1.5,
+          "trolley_depth": 0,
+          "trolley_width": 0,
+          "vmarker_angle": 0,
+          "goal_orientation": false
+        },
+        "ChargeDisable": {
+          "charging": false
+        },
+        "VmarkerDocking": {
+          "type": "vmarker",
+          "direction": "front",
+          "two_phase": false,
+          "goal_distance": 0.415,
+          "trolley_depth": 0,
+          "trolley_width": 0,
+          "vmarker_angle": 68,
+          "goal_orientation": false
+        },
+        "vmarker_distance": null
+      },
+      {
+        "x": 17.07494386854791,
+        "y": 3.141078723228013,
+        "fill": "orange",
+        "uuid": "locationTag-bbf38b7c-8456-4574-a6b0-f5fe6aa14b95",
+        "theta": 174.85298288447922,
+        "title": "wp4",
+        "UnDock": {
+          "type": "undock",
+          "direction": "reverse",
+          "two_phase": false,
+          "goal_distance": 0.8,
+          "trolley_depth": 0,
+          "trolley_width": 0,
+          "vmarker_angle": 0,
+          "goal_orientation": false
+        },
+        "Waypoint": {
+          "x": 17.07494386854791,
+          "y": 3.141078723228013,
+          "theta": 174.85298288447922
+        },
+        "TdmDocking": {
+          "type": "TDM",
+          "direction": "front",
+          "two_phase": true,
+          "goal_distance": 0,
+          "trolley_depth": 0.43,
+          "trolley_width": 0.77,
+          "vmarker_angle": 0,
+          "goal_orientation": true
+        },
+        "TdmExtract": {
+          "back_lidar": {
+            "max": 0.785398,
+            "min": -2.356194
+          },
+          "front_lidar": {
+            "max": 0.785398,
+            "min": -2.356194
+          },
+          "tdm_operation": "extract",
+          "robot_footprint": "[[-0.6331,-0.479], [0.6331,-0.479], [0.6331,0.479], [-0.6331,0.479]]"
+        },
+        "TdmRetract": {
+          "back_lidar": {
+            "max": 2.356194,
+            "min": -2.356194
+          },
+          "front_lidar": {
+            "max": 2.356194,
+            "min": -2.356194
+          },
+          "tdm_operation": "retract",
+          "robot_footprint": "[[-0.427,-0.3], [0.427,-0.3], [0.427,0.3], [-0.427,0.3]]"
+        },
+        "ChargeEnable": {
+          "charging": true
+        },
+        "TrollyUnDock": {
+          "type": "undock",
+          "direction": "reverse",
+          "two_phase": false,
+          "goal_distance": 1.5,
+          "trolley_depth": 0,
+          "trolley_width": 0,
+          "vmarker_angle": 0,
+          "goal_orientation": false
+        },
+        "ChargeDisable": {
+          "charging": false
+        },
+        "VmarkerDocking": {
+          "type": "vmarker",
+          "direction": "front",
+          "two_phase": false,
+          "goal_distance": 0.415,
+          "trolley_depth": 0,
+          "trolley_width": 0,
+          "vmarker_angle": 68,
+          "goal_orientation": false
+        },
+        "vmarker_distance": null
+      }
+    ],
+    "preferredPath": [
+      {
+        "uuid": "editPreferredPathGroup-51e8fd40-3807-4803-8ba9-6f80a99c1255",
+        "title": "nagata pf",
+        "points": [
+          {
+            "fill": "transparent",
+            "uuid": "editPreferredPathTag-85a68cf5-00b9-49fe-98f4-de1b80fcac07",
+            "points": [
+              {
+                "x": 22.282895000000007,
+                "y": -1.2593929999999958
+              },
+              {
+                "x": 2.082895000000004,
+                "y": -0.25939299999999577
+              }
+            ],
+            "stroke": "rgba(0, 178, 255, 0.30)"
+          }
+        ]
+      }
+    ]
+  }
